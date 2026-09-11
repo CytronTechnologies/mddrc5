@@ -1,5 +1,7 @@
 # Robot Sumo 500g R/C — 3D files
 
+For complete assembly instructions, refer to the [Build a Robot Sumo 500g R/C with MDDRC5 tutorial](https://my.cytron.io/tutorial/build-robot-sumo-500g-rc-mddrc5?tracking=idris).
+
 | Part | Download | Quantity |
 | --- | --- | --- |
 | Robot body | [Sumo500gRCBody.stl](Sumo500gRCBody.stl) | 1 |
