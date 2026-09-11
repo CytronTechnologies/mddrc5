@@ -1,14 +1,19 @@
-# MDDRC5 — Robot Sumo 500g R/C
+# MDDRC5
 
-Firmware and 3D-printable parts for the Robot Sumo 500g R/C tutorial using the Cytron MDDRC5 motor driver.
+This repository contains firmware and 3D-printable files for projects using the Cytron MDDRC5 5 Amp 7V–30V DC Motor Driver for R/C (2 Channels).
 
-## Downloads
+## Tutorials
 
-| Resource | Files |
+- [Getting Started with MDDRC5](https://my.cytron.io/tutorial/getting-started-with-mddrc5)
+- [Build a Robot Sumo 500g R/C with MDDRC5](https://my.cytron.io/tutorial/build-robot-sumo-500g-rc-mddrc5)
+
+## Resources
+
+| Resource | GitHub folder |
 | --- | --- |
-| MDDRC5 firmware | [v1.0.5](firmware/mddrc5_v1.0.5.uf2) · [v1.0.4](firmware/mddrc5_v1.0.4.uf2) |
-| Sumo robot body | [Sumo500gRCBody.stl](3d-files/robot-sumo-500g-rc/Sumo500gRCBody.stl) |
-| Sumo motor bracket | [Sumo500gRCBracket.stl](3d-files/robot-sumo-500g-rc/Sumo500gRCBracket.stl) |
+| MDDRC5 Firmware | [firmware](firmware/) |
+| Robot Sumo 500g R/C 3D Files | [robot-sumo-500g-rc](3d-files/robot-sumo-500g-rc/) |
+| Robot Battle 3D Files | [robot-battle-karnival-stem](3d-files/robot-battle-karnival-stem/) |
 
 On GitHub, open the required file and choose **Download raw file**. To download everything, choose **Code → Download ZIP** and extract the archive.
 
@@ -33,17 +38,6 @@ Version v1.0.5 is the highest-numbered firmware included in this repository. Rel
     └── robot-battle-karnival-stem/
         └── (existing Battle robot STL files)
 ```
-
-## Build the Robot Sumo 500g R/C
-
-1. Download the [body and motor bracket](3d-files/robot-sumo-500g-rc/README.md) and print the parts.
-2. Prepare two compatible DC gearmotors, rims and tyres, weights, a metal or copper base plate, battery, MDDRC5, R/C transmitter and receiver, cables, fasteners, front shield, and blade according to the assembly tutorial.
-3. With the battery disconnected, assemble the robot and connect the left motor to M1A/M1B and the right motor to M2A/M2B. Connect the battery cable to V+/V− with the correct polarity.
-4. Connect RC1 to receiver throttle and RC2 to receiver steering. The tutorial's HotRC receiver uses CH2 for throttle and CH1 for steering. Check signal, +5V, and GND orientation at both ends.
-5. Follow the MDDRC5 Operation tutorial for Mixed Mode setup and motor alignment. Perform the first powered test with the wheels raised.
-6. Measure and weigh the completed robot against the applicable competition rules. The project name does not guarantee a finished weight of 500 g.
-
-Disconnect the battery before assembly or wiring. Cover the blade edge during handling and keep cables clear of the wheels.
 
 ## Firmware and printing guides
 
