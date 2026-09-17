@@ -1,12 +1,16 @@
 /*
-  MDDRC5 - simple RC mixed-mode example
+  MDDRC5 - Simple RC mixed-mode example
 
   RC1: throttle
   RC2: steering
 
-  This example intentionally contains only the basic RC-to-motor control.
-  Motor alignment is set with the four MAX_* constants below. The onboard
-  alignment potentiometers, mode switch, test button and error LEDs are not used.
+  - This example contains only the basic RC-to-motor control.
+  - Motor alignment is set with the four MAX_* constants below.
+  - The onboard alignment potentiometers, mode switch,
+    test button and error LEDs are not used.
+
+  Software: Arduino IDE
+  Board: Raspberry Pi Pico
 */
 
 // ---------------- User settings ----------------
