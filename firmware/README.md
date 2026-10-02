@@ -2,7 +2,7 @@
 
 | File | Status in this package |
 | --- | --- |
-| [mddrc5_v1.0.5.uf2](mddrc5_v1.0.5.uf2) | Highest-numbered supplied version |
+| [mddrc5_v1.0.6.uf2](mddrc5_v1.0.6.uf2) | Highest-numbered supplied version |
 | [mddrc5_v1.0.4.uf2](mddrc5_v1.0.4.uf2) | Earlier supplied version |
 
 Both binaries are preserved unchanged. The supplied files do not include release notes, build instructions, or source code, so differences between these versions are not documented here.
